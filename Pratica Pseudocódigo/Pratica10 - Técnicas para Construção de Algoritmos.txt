@@ -1,0 +1,40 @@
+Problema:
+Elabore uma solução com pseudocódigo para que, a partir de 02 valores informados em um intervalo fechado de 0 a 10, seja calculada a média ponderada desses valores. Para essa solução considere que os pesos para cada valor devem ser respectivamente 4 e 6.
+Após a operação ser realizada, deve-se considerar o seguinte critério para o resultado final: se o valor obtido da média for maior ou igual 6 a informação final deverá ser "Aprovado", caso contrário deverá ser "Reprovado".
+Considere também que se o valor informado estiver fora do intervalo definido, o algoritmo deve ser encerrado com a seguinte informação: "Valor não informado no intervalo solicitado"
+
+Algoritmo "Média Ponderada"
+
+Var
+valor1: real
+valor2: real
+resultado: real
+
+
+Inicio
+escreva ("Digite um valor entre 0 e 10: ")
+   leia (valor1)
+se (valor1 > 10) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+se (valor1 < 0) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+fimse
+fimse
+
+escreva ("Digite outro valor entre 0 e 10: ")
+   leia(valor2)
+se (valor2 > 10) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+se (valor2 < 0) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+fimse
+fimse
+
+resultado <- (valor1*4 + valor2*6) / (4+6)
+
+se (resultado >= 6) então
+   escreval ("Sua média ponderada é:", resultado, ". Você foi aprovado!")
+senão
+   escreval ("Sua média ponderada é:", resultado, ". Você foi reprovado!")
+fimse
+fimalgoritmo

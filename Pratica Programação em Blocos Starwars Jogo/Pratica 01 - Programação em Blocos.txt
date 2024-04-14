@@ -1,0 +1,75 @@
+Nível 1: moveForward();
+         moveForward();
+
+
+Nível 2: moveForward();
+         turnLeft();
+         moveForward();
+         turnRight();
+         moveForward();
+
+
+Nível 3: while (notDone()) {
+           moveForward();
+}
+
+
+Nível 4: while (notDone()) {
+           moveForward();
+           turnLeft();
+           moveForward();
+           turnRight();
+}
+
+
+Nível 5: moveForward();
+         moveForward();
+         turnLeft();
+         while (notDone()) {
+          moveForward();
+}
+
+Nível 6: while (notDone()) {
+          moveForward();
+          if (isPathLeft()) {
+           turnLeft();
+  }
+}
+
+
+
+nível 7: while (notDone()) {
+         moveForward();
+         if (isPathRight()) {
+          turnRight();
+  }
+}
+
+Nível 8: while (notDone()) {
+         moveForward();
+         if (isPathLeft()) {
+          turnLeft();
+  }
+         if (isPathRight()) {
+          turnRight();
+  }
+}
+
+Nível 9: while (notDone()) {
+         if (isPathForward()) {
+          moveForward();
+  }       else {
+          turnLeft();
+  }
+}
+
+Nível 10: while (notDone()) {
+           if (isPathLeft()) {
+            turnLeft();
+  }
+          if (isPathForward()) {
+            moveForward();
+  }         else {
+            turnRight();
+  }
+}

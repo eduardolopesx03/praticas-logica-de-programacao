@@ -1,0 +1,50 @@
+Pratica 8 no visualg
+
+Algoritmo "Cadastramento"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 31/08/2022
+Var
+nome: caractere
+rua: caractere
+numero: inteiro
+bairro: caractere
+cep: caractere
+cidade: caractere
+estado: caractere
+Inicio
+
+escreva ("Digite o seu nome: ")
+   leia (nome)
+   
+escreva ("escreva o seu endereço, começando pela rua: ")
+   leia (rua)
+
+escreva ("Número: ")
+   leia (numero)
+
+escreva ("Bairro: ")
+   leia (bairro)
+
+escreva ("Cep: ")
+   leia (cep)
+
+escreva ("Cidade: ")
+   leia (cidade)
+se (cidade = "Salvador") então
+   escreval ("(Cidade Modelo)")
+      fimse
+
+escreva ("Estado: ")
+   leia (estado)
+
+escreval (nome, ", seu endereço completo é: ")
+escreval ("Rua: ", rua)
+escreval ("Número: ", numero)
+escreval ("Bairro: ", bairro)
+escreval ("Cep: ", cep)
+escreval ("Cidade: ", cidade)
+escreval ("Estado: ", estado)
+Fimalgoritmo

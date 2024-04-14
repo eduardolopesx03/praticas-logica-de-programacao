@@ -1,0 +1,31 @@
+Algoritmo "Média Aritmética"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/09/2022
+Var
+valor1: real
+valor2: real
+valor3: real
+resultado: real
+
+
+Inicio
+escreva ("Digite o primeiro valor: ")
+   leia (valor1)
+
+escreva ("Digite o segundo valor: ")
+   leia (valor2)
+   
+escreva ("Digite o terceiro valor: ")
+   leia (valor3)
+
+resultado <- (valor1 + valor2 + valor3)/3
+se resultado >= 6 então
+   escreval ("A sua média é:", resultado, ". Você está Aprovado!")
+senao
+   escreval ("A sua média é:", resultado, ". Você está Reprovado!")
+      fimse
+      
+Fimalgoritmo

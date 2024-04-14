@@ -1,0 +1,35 @@
+Problema:
+Elabore uma solução utilizando pseudocodigo para ler o nome e o seu endereço completo (separados por tipo: rua, numero, bairro, cep, cidade, estado) informados pelo usuário. A solução deve retornar para o usuário uma impressão de saída contendo o nome e o endereço completo informado. Para essa solução, cada elemento informado deve ser inserido em uma variável específica.
+Se a cidade informada for Salvador imprima na tela do usuário: cidade modelo
+
+algoritmo cadastramento
+variaveis: nome (str), rua (str), numero (int), bairro (str), cep (str), cidade (str), estado (str)
+
+inicio
+escreva ("Digite o seu nome: ")
+leia (nome)
+escreva ("escreva o seu endereço, começando pela Rua: "
+leia (rua)
+escreva ("Número: ")
+leia (numero)
+escreva ("Bairro: ")
+leia (bairro)
+escreva ("Cep: ")
+leia (cep)
+escreva ("Cidade: ")
+leia (cidade)
+se (cidade = "Salvador") então escreva ("Cidade Modelo")
+fim se
+escreva ("Estado: ")
+leia (estado)
+escreval (nome, ", seu endereço completo é: ")
+escreval ("Rua: ", rua)
+escreval ("Número: ", numero)
+escreval ("Bairro: ", bairro)
+escreval ("Cep: ", cep)
+escreval ("Cidade: ", cidade)
+escreval ("Estado: ", estado)
+Fimalgoritmo
+
+
+

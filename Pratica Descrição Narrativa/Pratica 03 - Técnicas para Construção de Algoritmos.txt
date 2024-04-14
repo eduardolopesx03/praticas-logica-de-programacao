@@ -1,0 +1,8 @@
+Descrição Narrativa (Calcular Média Aritmética)
+
+Problema: Elabore um algoritmo utilizando a técnica de descrição narrativa para que, a partir de 03 valores informados, seja apresentado o resultado da média aritmética desses valores.
+
+1- Primeiro temos que obter os 3 números que serão informados
+2- Em seguida devemos somar esses números
+3- Agora vamos dividir o resultado da soma pela quantidade de termos que foram somados, ou seja, dividir por 3
+4- E por final teremos o resultado da divisão que será a média aritmética

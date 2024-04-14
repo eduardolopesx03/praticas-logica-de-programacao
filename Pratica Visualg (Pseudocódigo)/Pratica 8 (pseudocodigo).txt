@@ -1,0 +1,33 @@
+Pratica 08 (pseudocodigo)
+
+algoritmo cadastramento
+variaveis: nome (str), rua (str), numero (int), bairro (str), cep (real), cidade (str), estado (str)
+
+inicio
+escreva ("Digite o seu nome: ")
+leia (nome)
+escreva ("escreva o seu endereço, começando pela rua: "
+leia (rua)
+escreva ("Número: ")
+leia (numero)
+escreva ("Bairro: ")
+leia (bairro)
+escreva ("Cep: ")
+leia (cep)
+escreva ("Cidade: ")
+leia (cidade)
+se (cidade = "Salvador") então escreva ("Cidade Modelo")
+fim se
+escreva ("Estado: ")
+leia (estado)
+escreval (nome, ", seu endereço completo é: ")
+escreval ("Rua: ", rua)
+escreval ("Número: ", numero)
+escreval ("Bairro: ", bairro)
+escreval ("Cep: ", cep)
+escreval ("Cidade: ", cidade)
+escreval ("Estado: ", estado)
+Fimalgoritmo
+
+
+

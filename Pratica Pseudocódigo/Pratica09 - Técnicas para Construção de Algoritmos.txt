@@ -1,0 +1,31 @@
+Problema:
+Elabore um algoritmo utilizando Pseusocódigo para que, a partir de 03 valores informados, seja calculada a média aritmética desses valores. Em seguida deve ser apresentado o resultado considerando o seguinte critério: se o valor obtido da média for menor que 6 a informação final deverá ser "Reprovado", caso contrário deverá ser "Aprovado".
+
+
+Algoritmo "Média Aritmética"
+
+Var
+valor1: real
+valor2: real
+valor3: real
+resultado: real
+
+
+Inicio
+escreva ("Digite o primeiro valor: ")
+   leia (valor1)
+
+escreva ("Digite o segundo valor: ")
+   leia (valor2)
+   
+escreva ("Digite o terceiro valor: ")
+   leia (valor3)
+
+resultado <- (valor1 + valor2 + valor3)/3
+se resultado >= 6 então
+   escreval ("A sua média é:", resultado, ". Você está Aprovado!")
+senao
+   escreval ("A sua média é:", resultado, ". Você está Reprovado!")
+      fimse
+      
+Fimalgoritmo

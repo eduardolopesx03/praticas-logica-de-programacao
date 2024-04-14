@@ -1,0 +1,116 @@
+Nível 1: moveRight();
+         moveRight();
+
+Nível 2: moveRight();
+         moveRight();
+         moveDown();
+         moveDown();
+
+Nível 3: moveRight();
+         moveUp();
+         moveDown();
+         moveRight();
+
+Nível 4: moveDown();
+         moveLeft();
+         moveLeft();
+         moveDown();
+         moveDown();
+         moveLeft();
+
+Nível 5: moveRight();
+         moveRight();
+         moveDown();
+         moveDown();
+         moveDown();
+         moveLeft();
+
+Nível 6: moveDown();
+         moveDown();
+         moveUp();
+         moveRight();
+         moveRight();
+         moveUp();
+         moveDown();
+         moveRight();
+
+Nível 7: WhendownArrow();
+         MoveDroidDrown();
+         WhenUpArrow
+         MoveDroidUp();
+
+Nível 8: WhenUpArrow();
+         MoveDroidUp();
+         WhenDownArrow();
+         MoveDroidDown();
+         WhenLeftArrow();
+         MoveDroidLeft();
+         WhenRightArrow();
+         MoveDroidRight();
+
+Nível 9: WhenGoalTouched();
+         PlayR2-D2RandomSound
+         Add1000Points
+
+Nível 10: WhenGetRebelPilot();
+          Add100Points();
+          WhenGetStomtrooper();
+          Remove100Points();
+          WhenGetMynock();
+          Add300Points();
+
+Nível 11: WhenRun();
+          PlayR2-D21Sound();
+          AddAPufferPig();
+          AddAPufferPig();
+          AddAPufferPig();
+          WhenGetPufferPig();
+          PlayPufferPigRandom();
+          Add1000Points();
+
+Nível 12: WhenGetTauntaun();
+          PlayTauntaunRandom();
+          Add50Points();
+          WhenRun();
+          AddATauntaun()
+          AddATauntaun()
+          AddATauntaun()
+          AddATauntaun()
+          AddAMynock();
+          AddAMynock();
+          AddAMynock();
+          AddAMynock();
+          AddAMynock();
+          AddAMynock();
+          AddAMynock();
+          AddAMynock();
+
+Nível 13: WhenRun();
+          AddAMouseDroid
+          PlayR2D23sound
+          WhenGetMouseDroid
+          AddAMouseDroid
+          AddAMouseDroid
+          AddAMouseDroid
+          AddAMouseDroid
+          AddAMouseDroid
+
+Nível 14: When Run();
+          AddARebelPilot();
+          AddARebelPilot();
+          AddARebelPilot();
+          SetRandomBackground();
+          SetRandomMap();
+          SetDroidToC-3PO();
+          SetDroidToaAFastSpeed();
+
+Nível 15: WhenRun();
+          SetEndorBackground();
+          SetCircleMap();
+          SetDroidToR2-D2();
+          SetDroidToANormalSpeed();
+          PlayR2-D2RandomSound();
+          WhenUpArrow();
+          WhenDownArrow();
+          WhenLeftArrow();
+          WhenRightArrow();

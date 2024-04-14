@@ -1,0 +1,41 @@
+Pratica 10 no visualg
+
+Algoritmo "Média Ponderada"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/09/2022
+Var
+valor1: real
+valor2: real
+resultado: real
+
+
+Inicio
+escreva ("Digite um valor entre 0 e 10: ")
+   leia (valor1)
+se (valor1 > 10) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+se (valor1 < 0) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+fimse
+fimse
+
+escreva ("Digite outro valor entre 0 e 10: ")
+   leia(valor2)
+se (valor2 > 10) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+se (valor2 < 0) entao
+   escreval ("Valor não informado no intervalo solicitado!")
+fimse
+fimse
+
+resultado <- (valor1*4+valor2*6)/(4+6)
+
+se (resultado >= 6) então
+   escreval ("Sua média ponderada é:", resultado, ". Você foi aprovado!")
+senão
+   escreval ("Sua média ponderada é:", resultado, ". Você foi reprovado!")
+fimse
+fimalgoritmo

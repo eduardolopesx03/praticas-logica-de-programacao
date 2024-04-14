@@ -1,0 +1,8 @@
+Descrição Narrativa (Soma)
+
+Problema: Elabore uma solução utilizando a técnica de descrição narrativa para que, a partir de 03 valores informados, seja apresentado o resultado da soma desses três valores.
+Obs: será preciso solicitar do consumidor do algoritmo os dados para que o algoritmo possa processar o resultado do problema apresentado.
+
+1- Primeiro temos que obter os 3 valores que serão informados pelo consumidor do algoritmo
+3- Já com os valores informados iremos somá los 
+3- E por final teremos o resultado da soma dos três valores
